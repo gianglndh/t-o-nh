@@ -1,20 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Bulk Image Generator
 
-# Run and deploy your AI Studio app
+Generated multiple images from a list of prompts using Gemini 2.5 Flash Image.
 
-This contains everything you need to run your app locally.
+## Features
+- Multi-prompt input (one per line or formatted list)
+- Aspect Ratio selection (1:1, 16:9, 9:16, 4:3, 3:4)
+- Custom Gemini API Key support
+- Bulk download as ZIP
+- Mobile-friendly responsive design
 
-View your app in AI Studio: https://ai.studio/apps/b6a0c27a-e9ac-4074-a418-26c0010b46ee
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Setup for Vercel
+1. Upload this project to GitHub.
+2. Connect your GitHub repo to [Vercel](https://vercel.com/).
+3. Add `GEMINI_API_KEY` as an Environment Variable in Vercel settings.
+4. Deploy!
